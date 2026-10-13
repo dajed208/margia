@@ -6,7 +6,8 @@
 
 > **Margia** es un programa de costeo estándar para negocios que producen. Calcula cuánto *debería* costar cada producto, lo compara con lo que de verdad gastaste y te muestra **dónde se te va la ganancia**. Funciona en tu computador, **sin internet**, y tus datos se quedan contigo.
 
-![Tablero de Margia: costo estándar frente a costo real, variaciones y gráfico por orden de producción](img/guia/11-dashboard.png)
+![Tablero de Margia: costo estándar frente a costo real, variaciones y gráfico por orden de producción]<img width="1100" height="656" alt="01-inicio-sesion" src="https://github.com/user-attachments/assets/5826facf-a8ca-4ff6-8e7a-8b1ec9ba09f5" />
+
 
 *Las capturas de esta guía usan datos de ejemplo de una pastelería ficticia.*
 
