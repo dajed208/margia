@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Margia — Conoce tu costo. Cuida tu margen.</title>
+<meta name="description" content="Margia es un programa de costeo estándar para negocios que producen: calcula cuánto cuesta cada producto, compara el costo real con el estándar y te muestra dónde se te va la ganancia. Funciona en tu computador, sin internet.">
+<meta name="theme-color" content="#0c665f">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Margia — Conoce tu costo. Cuida tu margen.">
+<meta property="og:description" content="Costeo estándar para negocios que producen. Calcula cuánto cuesta cada producto y dónde se te va la ganancia. Sin internet.">
+<link rel="icon" type="image/svg+xml" href="img/margia-icono.svg">
+<link rel="alternate icon" href="img/favicon.ico" sizes="any">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+
+<header class="cabecera">
+  <div class="contenedor cabecera-fila">
+    <a class="logo" href="#inicio" aria-label="Margia, ir al inicio"><img src="img/margia-logo.svg" alt="Margia" width="134" height="40"></a>
+    <nav class="menu" aria-label="Principal">
+      <a href="#que-hace">Qué hace</a>
+      <a href="#accion">Míralo en acción</a>
+      <a href="#empezar">Cómo empezar</a>
+      <a href="#preguntas">Preguntas</a>
+    </nav>
+    <a class="boton boton-claro" href="https://github.com/dajed208/margia.github.io/releases/latest">Descargar</a>
+  </div>
+</header>
+
+<main id="contenido">
+
+<section class="heroe" id="inicio">
+  <div class="contenedor heroe-fila">
+    <div class="heroe-texto">
+      <p class="sobretitulo">Costeo estándar para negocios que producen</p>
+      <h1>Conoce tu costo.<br><span>Cuida tu margen.</span></h1>
+      <p class="entrada">Margia calcula cuánto <strong>debería</strong> costar hacer cada producto, lo compara con lo que de verdad gastaste y te muestra <strong>dónde se te va la ganancia</strong>.</p>
+      <div class="botones">
+        <a class="boton boton-ambar" href="https://github.com/dajed208/margia.github.io/releases/latest">Descargar Margia</a>
+        <a class="boton boton-borde" href="#accion">Ver cómo funciona</a>
+      </div>
+      <ul class="garantias">
+        <li>Funciona sin internet</li>
+        <li>Tus datos se quedan en tu computador</li>
+        <li>Para negocios y para clases de costos</li>
+      </ul>
+    </div>
+    <div class="heroe-imagen">
+      <div class="navegador navegador-recortado">
+        <div class="barra"><i></i><i></i><i></i><span>127.0.0.1:8765</span></div>
+        <img src="img/dashboard.webp" width="1280" height="1168" alt="Tablero de Margia: costo estándar frente a costo real, variaciones acumuladas y un gráfico por orden de producción.">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="seccion" id="que-hace">
+  <div class="contenedor">
+    <h2>Casi todos saben cuánto venden.<br>Pocos saben cuánto les cuesta de verdad.</h2>
+    <p class="subtitulo">Margia responde las tres preguntas que deciden si un producto deja dinero.</p>
+    <div class="tarjetas">
+      <article class="tarjeta">
+        <span class="numero">1</span>
+        <h3>¿Cuánto debería costar?</h3>
+        <p>Arma la receta de cada producto y obtén su costo estándar: materiales (con desperdicio), mano de obra y costos indirectos. Te sugiere el precio para el margen que quieres y cuántas unidades debes vender para no perder.</p>
+      </article>
+      <article class="tarjeta">
+        <span class="numero">2</span>
+        <h3>¿Cuánto costó de verdad, y por qué?</h3>
+        <p>Registra lo que realmente se usó en cada orden de producción. Margia calcula seis variaciones: precio y cantidad de materiales, tarifa y eficiencia de la mano de obra, presupuesto y volumen de los costos indirectos.</p>
+      </article>
+      <article class="tarjeta">
+        <span class="numero">3</span>
+        <h3>¿Qué me queda en la bodega?</h3>
+        <p>Inventario con costo promedio, kardex y alertas de reposición. Al cerrar una orden descuenta solo lo que se consumió.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="seccion seccion-suave" id="accion">
+  <div class="contenedor">
+    <h2>Míralo en acción</h2>
+    <p class="subtitulo">Capturas reales de Margia con datos de una pastelería de ejemplo (ficticia).</p>
+
+    <div class="fila">
+      <div class="fila-texto">
+        <h3>Cuánto cuesta hacerlo… y a cuánto venderlo</h3>
+        <p>En este ejemplo, una torta de chocolate cuesta <strong>$38.100</strong> y se vende a $46.000: queda un margen de $7.900. Para ganar el <strong>30 %</strong> que se busca, Margia sugiere venderla a <strong>$54.429</strong>.</p>
+      </div>
+      <div class="navegador"><div class="barra"><i></i><i></i><i></i><span>Hoja de costo estándar</span></div>
+        <img src="img/hoja-costo.webp" width="1280" height="1375" loading="lazy" alt="Hoja de costo de la torta de chocolate: receta, costo de materiales, mano de obra y costos indirectos, margen, y precio sugerido."></div>
+    </div>
+
+    <div class="fila fila-inversa">
+      <div class="fila-texto">
+        <h3>Cada orden te dice dónde perdiste</h3>
+        <p>Al cerrar una orden, Margia separa el sobrecosto en seis causas: ¿subió el precio de los materiales?, ¿se gastó más de lo debido?, ¿la mano de obra tardó más? Así sabes <strong>qué corregir</strong>, no solo que costó más.</p>
+      </div>
+      <div class="navegador"><div class="barra"><i></i><i></i><i></i><span>Orden de producción</span></div>
+        <img src="img/orden.webp" width="1280" height="664" loading="lazy" alt="Orden de producción cerrada con su costo real y las seis variaciones clasificadas como favorables o desfavorables."></div>
+    </div>
+
+    <div class="fila">
+      <div class="fila-texto">
+        <h3>Todo de un vistazo</h3>
+        <p>El tablero compara el costo estándar con el real de tus últimas órdenes y suma las variaciones. En el ejemplo, producir costó <strong>6,1 % más</strong> de lo previsto: la señal para mirar dónde se fue el dinero.</p>
+      </div>
+      <div class="navegador"><div class="barra"><i></i><i></i><i></i><span>Tablero</span></div>
+        <img src="img/dashboard.webp" width="1280" height="1168" loading="lazy" alt="Tablero con el gráfico de costo unitario estándar frente a real para diez órdenes."></div>
+    </div>
+
+    <div class="fila fila-inversa">
+      <div class="fila-texto">
+        <h3>Reponer a tiempo</h3>
+        <p>Existencias valoradas a costo promedio, con alerta cuando algo baja de su mínimo. En el ejemplo, <strong>tres materiales</strong> piden reposición.</p>
+      </div>
+      <div class="navegador"><div class="barra"><i></i><i></i><i></i><span>Inventario</span></div>
+        <img src="img/inventario.webp" width="1280" height="820" loading="lazy" alt="Inventario de materias primas con existencias, costo promedio, valor y estado, y una alerta de materiales por reponer."></div>
+    </div>
+  </div>
+</section>
+
+<section class="seccion" id="incluye">
+  <div class="contenedor">
+    <h2>Todo lo que incluye</h2>
+    <ul class="lista-incluye">
+      <li>Varias empresas y periodos contables</li>
+      <li>Importar y exportar en Excel, con plantillas</li>
+      <li>Reportes en Excel y PDF con tu logo y colores</li>
+      <li>Histórico del costo estándar por periodo</li>
+      <li>Usuarios con permisos por módulo</li>
+      <li>Registro de actividad: quién hizo qué</li>
+      <li>Corregir órdenes solo con un código del administrador</li>
+      <li>Respaldos automáticos diarios</li>
+      <li>Uso en red local, con varias personas</li>
+    </ul>
+  </div>
+</section>
+
+<section class="seccion seccion-suave" id="empezar">
+  <div class="contenedor">
+    <h2>Empieza en cuatro pasos</h2>
+    <ol class="pasos">
+      <li><h3>Instala Python</h3><p>Es gratis, en python.org. En Windows, marca la casilla «Add python.exe to PATH».</p></li>
+      <li><h3>Descarga y descomprime Margia</h3><p>Elige una carpeta fija, por ejemplo <code>C:\Margia</code>.</p></li>
+      <li><h3>Ábrelo</h3><p>Doble clic en <code>Iniciar_Margia.bat</code>. La primera vez instala sus tres librerías (necesita internet una sola vez).</p></li>
+      <li><h3>Entra</h3><p>Usuario <code>admin</code>, contraseña <code>admin123</code>. Margia te pedirá cambiarla y te guía con «Tu ruta para empezar».</p></li>
+    </ol>
+    <p class="nota">¿Prefieres la terminal? Ejecuta <code>python -m pip install -r requirements.txt</code> y luego <code>python iniciar.py</code>. La guía completa viene en el archivo README del paquete.</p>
+  </div>
+</section>
+
+<section class="seccion" id="preguntas">
+  <div class="contenedor contenedor-angosto">
+    <h2>Preguntas frecuentes</h2>
+    <details>
+      <summary>¿Necesita internet?</summary>
+      <p>Solo la primera vez, para instalar tres librerías de Python. Después funciona sin conexión.</p>
+    </details>
+    <details>
+      <summary>¿Dónde quedan mis datos?</summary>
+      <p>En un archivo dentro de la carpeta de Margia (<code>data</code>). No se envían a ningún servidor. Margia hace una copia automática diaria y tú puedes descargar otra desde el menú Respaldo; guarda copias fuera del computador.</p>
+    </details>
+    <details>
+      <summary>¿En qué computadores funciona?</summary>
+      <p>En Windows 10 u 11 y en Linux, con Python 3.10 o superior. En Mac debería funcionar, pero todavía no lo hemos probado.</p>
+    </details>
+    <details>
+      <summary>¿Pueden usarlo varias personas?</summary>
+      <p>Sí. Hay usuarios con roles y permisos por módulo. En una red local, varias personas pueden entrar desde el navegador a un mismo computador; la guía lo explica. No está pensado para publicarse en internet.</p>
+    </details>
+    <details>
+      <summary>¿Y si me equivoco en una orden?</summary>
+      <p>El administrador puede corregirla, reabrirla o eliminarla con un código de autorización, y todo queda en el registro de actividad.</p>
+    </details>
+    <details>
+      <summary>¿Reemplaza a mi contador?</summary>
+      <p>No. Margia calcula costos estándar y variaciones con los datos que tú cargas. No hace contabilidad general, nómina ni declaraciones, y sus resultados no son asesoría contable ni tributaria.</p>
+    </details>
+    <details>
+      <summary>¿Cómo reporto un problema o pido ayuda?</summary>
+      <p>Abre un reporte en <a href="https://github.com/dajed208/margia.github.io/issues">GitHub</a> contando qué pasó y qué mensaje viste.</p>
+    </details>
+  </div>
+</section>
+
+<section class="cierre">
+  <div class="contenedor">
+    <h2>Conoce tu costo hoy.</h2>
+    <p>Versión 1.0.0 · Para Windows y Linux</p>
+    <a class="boton boton-ambar boton-grande" href="https://github.com/dajed208/margia.github.io/releases/latest">Descargar Margia</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="pie">
+  <div class="contenedor pie-fila">
+    <img src="img/margia-logo-blanco.svg" alt="Margia" width="117" height="35">
+    <p>Conoce tu costo. Cuida tu margen.</p>
+    <p class="pie-nota">Las capturas usan datos de ejemplo de una empresa ficticia.</p>
+  </div>
+</footer>
+
+</body>
+</html>
