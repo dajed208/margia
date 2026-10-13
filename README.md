@@ -50,7 +50,7 @@ También incluye: varias empresas y periodos, reportes en Excel y PDF con tu log
 ## 2. Descargar desde GitHub
 
 1. Abre la página del proyecto en GitHub: <[https://github.com/dajed208/margia.github.io](https://github.com/dajed208/margia)>
-2. Entra a **Releases** y elige la versión más reciente. Atajo: <https://github.com/dajed208/margia.github.io/releases/latest>
+2. Entra a **Releases** y elige la versión más reciente. Atajo:[ <https://github.com/dajed208/margia.github.io/releases/latest>](https://github.com/dajed208/margia/releases)
 3. En **Assets**, descarga el archivo **`margia.zip`**.
 4. Descomprímelo en una carpeta fija, por ejemplo `C:\Margia`. En Windows: clic derecho sobre el archivo → **Extraer todo…**
 
