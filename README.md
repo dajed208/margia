@@ -1,12 +1,13 @@
-<p align="center">
-  <img src="img/margia-logo.svg" alt="Margia" height="56">
+
 </p>
+<img width="1715" height="512" alt="margia-logo-blanco" src="https://github.com/user-attachments/assets/a93fd72b-1177-48f7-aa6e-d696cc4bdf61" />
+
 
 <h1 align="center">Conoce tu costo. Cuida tu margen.</h1>
 
 > **Margia** es un programa de costeo estándar para negocios que producen. Calcula cuánto *debería* costar cada producto, lo compara con lo que de verdad gastaste y te muestra **dónde se te va la ganancia**. Funciona en tu computador, **sin internet**, y tus datos se quedan contigo.
 
-![Tablero de Margia: costo estándar frente a costo real, variaciones y gráfico por orden de producción]<img width="1100" height="656" alt="01-inicio-sesion" src="https://github.com/user-attachments/assets/5826facf-a8ca-4ff6-8e7a-8b1ec9ba09f5" />
+<img width="2880" height="2618" alt="margia-tablero-hd" src="https://github.com/user-attachments/assets/e5e05845-f81d-428a-ae57-bb957d218ffa" />
 
 
 *Las capturas de esta guía usan datos de ejemplo de una pastelería ficticia.*
@@ -109,7 +110,9 @@ Deja esta ventana abierta mientras uses el sistema. Cierra con Ctrl+C.
 
 Si el navegador no se abre, copia esa dirección en su barra. **Deja la ventana negra abierta mientras uses Margia**: es el motor del programa.
 
-![Pantalla de inicio de sesión de Margia](img/guia/01-inicio-sesion.png)
+
+<img width="1100" height="656" alt="01-inicio-sesion" src="https://github.com/user-attachments/assets/18b9d56d-870b-4a7a-a4d0-bd4b4c21d854" />
+
 
 > Si te entregaron una versión empaquetada (`Margia.exe`), haz doble clic en ese archivo en lugar de lo anterior. Mira `installer/LEAME.txt`.
 
@@ -126,7 +129,8 @@ Los usuarios de fábrica son:
 
 **Cambia la contraseña de inmediato**: las de fábrica son públicas (están en este mismo archivo). La primera vez que entres con una contraseña de fábrica se abre esta ventana:
 
-![Ventana para cambiar la contraseña de fábrica la primera vez que se entra](img/guia/02-primer-ingreso.png)
+<img width="1100" height="656" alt="02-primer-ingreso" src="https://github.com/user-attachments/assets/fc281e19-48bf-4adf-ac19-bf9064532219" />
+
 
 Escribe la contraseña actual (`admin123`), la nueva (mínimo 6 caracteres) y repítela. Si eliges **«Más tarde»**, verás un aviso amarillo en cada pantalla hasta que lo hagas. Puedes cambiarla cuando quieras con el botón **«Cambiar contraseña»**, arriba a la derecha.
 
@@ -144,7 +148,8 @@ Escribe la contraseña actual (`admin123`), la nueva (mínimo 6 caracteres) y re
 
 Al entrar, el **Dashboard** muestra **«Tu ruta para empezar»**: los 9 pasos, en el orden en que el sistema necesita los datos (cada uno usa lo del anterior). **Se marcan solos** a medida que cargas tu información, y el botón **«Continuar»** te lleva al siguiente paso pendiente.
 
-![Ruta para empezar, con 4 de 9 pasos hechos y el siguiente resaltado](img/guia/03-ruta-para-empezar.png)
+<img width="1100" height="795" alt="03-ruta-para-empezar" src="https://github.com/user-attachments/assets/5713fee9-120c-4c75-929a-fe957f107dbd" />
+
 
 Un paso solo cuenta como hecho si está **completo**: un periodo sin unidades presupuestadas o un producto sin receta siguen pendientes, y la guía te dice qué falta.
 
@@ -154,14 +159,16 @@ Un paso solo cuenta como hecho si está **completo**: un periodo sin unidades pr
 ### Paso 2 · Crea un periodo contable
 **Menú Periodos contables → Nuevo periodo.**
 
-![Formulario para crear un periodo contable](img/guia/04-periodo.png)
+<img width="1100" height="687" alt="04-periodo" src="https://github.com/user-attachments/assets/3a4e3158-c001-4ec5-8b14-e2192b319834" />
+
 
 El dato clave es **«Unidades de producción presupuestadas para el periodo»**: con él Margia reparte los costos indirectos entre tus productos. Si lo dejas en 0, el CIF se reparte de forma aproximada y el costo sale incorrecto.
 
 ### Paso 3 · Registra tus materias primas
 **Menú Materias primas → Nueva materia prima.**
 
-![Formulario de materia prima con su unidad, costo estándar, proveedor, mínimo y eficiencia](img/guia/05-materia-prima.png)
+<img width="1100" height="763" alt="05-materia-prima" src="https://github.com/user-attachments/assets/dad3e096-d334-4774-90af-f29276e4403b" />
+
 
 - **Costo estándar por unidad estándar:** lo que *debería* costar cada kilo, litro o unidad.
 - **Eficiencia:** `100` = sin desperdicio. Con `95`, el 5 % se pierde, y Margia lo suma al costo.
@@ -170,14 +177,16 @@ El dato clave es **«Unidades de producción presupuestadas para el periodo»**:
 ### Paso 4 · Registra la mano de obra
 **Menú Mano de obra directa → Nuevo trabajador.** Salario mensual, porcentaje de prestaciones y de cargas laborales, y **horas laborales por mes**. Margia calcula la **tarifa estándar por hora**.
 
-![Lista de trabajadores con su tarifa estándar por hora calculada](img/guia/06-mano-de-obra.png)
+<img width="1100" height="488" alt="06-mano-de-obra" src="https://github.com/user-attachments/assets/03c71885-4587-47cd-bfd5-c54c85acfb3e" />
+
 
 > Registra solo a quienes **producen**: Margia usa la tarifa **promedio** de todos los trabajadores, y un administrador o un vendedor la subirían. Y las horas por mes son las del **mes** (unas 192), no las de la semana ni los días.
 
 ### Paso 5 · Define los costos indirectos (CIF)
 **Menú Conceptos de CIF → Nuevo concepto de CIF.** Arriendo, gas, energía, empaques… Para cada uno: si es **fijo** o **variable**, su **valor presupuestado del periodo** y la **base de aplicación** con la que se reparte entre los productos (por ejemplo, horas de mano de obra o unidades producidas).
 
-![Conceptos de CIF con su comportamiento, base de aplicación y presupuesto](img/guia/07-cif.png)
+<img width="1100" height="488" alt="07-cif" src="https://github.com/user-attachments/assets/e38ea19c-07b5-424b-849c-05b016def246" />
+
 
 ### Paso 6 · Crea tus productos
 **Menú Productos → Nuevo producto.** Código, descripción, unidad, **precio de venta** y **horas de mano de obra estándar por unidad**.
@@ -187,7 +196,8 @@ El dato clave es **«Unidades de producción presupuestadas para el periodo»**:
 ### Paso 7 · Arma la receta de cada producto
 **Menú Hoja de costo.** Elige el producto y, en «Materiales de la receta», agrega cada materia prima con su cantidad por unidad (**Agregar a la receta**). La hoja se calcula sola:
 
-![Hoja de costo estándar con receta, costos de materiales, mano de obra y CIF, precio sugerido y punto de equilibrio](img/guia/08-hoja-costo.png)
+<img width="1100" height="1181" alt="08-hoja-costo" src="https://github.com/user-attachments/assets/c93c980d-33d4-43df-8259-5d45f6e2064f" />
+
 
 - **Costo estándar unitario** = materiales + mano de obra + CIF.
 - **Margen frente al precio de venta** = precio de venta − costo estándar.
@@ -199,7 +209,8 @@ Si falta algo (por ejemplo, el CIF en cero), la hoja muestra un **aviso amarillo
 ### Paso 8 · Registra una orden de producción
 **Menú Órdenes de producción → Nueva orden.** Número, producto, periodo, fecha y cantidad planeada. Ábrela con **Ver** y registra lo que **realmente** se usó:
 
-![Orden de producción abierta con los formularios para consumo de materiales, horas de mano de obra, CIF real y cierre](img/guia/09-orden-abierta.png)
+<img width="1100" height="1067" alt="09-orden-abierta" src="https://github.com/user-attachments/assets/34ee2dae-db40-4a9e-8ba7-cd0136831860" />
+
 
 - **Consumo real de materiales:** cantidad y precio reales (**Agregar consumo**).
 - **Horas de mano de obra directa:** trabajador, horas y tarifa reales (**Agregar registro**).
@@ -208,7 +219,8 @@ Si falta algo (por ejemplo, el CIF en cero), la hoja muestra un **aviso amarillo
 ### Paso 9 · Cierra la orden y lee las variaciones
 En «Cerrar orden y calcular costo real», escribe la **cantidad producida** y pulsa **Cerrar orden**. Margia calcula el costo real y **seis variaciones**:
 
-![Orden cerrada con su costo real y las seis variaciones clasificadas como favorables o desfavorables](img/guia/10-orden-cerrada.png)
+<img width="1100" height="570" alt="10-orden-cerrada" src="https://github.com/user-attachments/assets/e3764114-b237-4fe7-bb40-1bf96371d44a" />
+
 
 | Variación | Qué te dice |
 |---|---|
@@ -231,15 +243,18 @@ Al cerrar tu **primera** orden, la guía desaparece y el Dashboard empieza a mos
 
 **Dashboard.** Compara el costo estándar con el real de tus últimas órdenes, suma las variaciones y dibuja un gráfico por orden. Puedes filtrar por producto y por periodo.
 
-![Tablero con indicadores, variaciones acumuladas y gráfico de costo unitario estándar frente a real por orden](img/guia/11-dashboard.png)
+<img width="1100" height="1003" alt="11-dashboard" src="https://github.com/user-attachments/assets/18108607-75bd-4029-b702-15a0c01c6e89" />
+
 
 **Inventario.** Existencias valoradas a costo promedio ponderado, con alerta cuando algo baja de su mínimo. Con **Registrar movimiento** anotas compras (entradas) y salidas; cada materia tiene su **Kardex**.
 
-![Inventario con existencias, costo promedio, valor y estado, y alerta de materiales por reponer](img/guia/12-inventario.png)
+<img width="1100" height="705" alt="12-inventario" src="https://github.com/user-attachments/assets/00828202-c9c6-45ab-bf5d-624fad9e1646" />
+
 
 **Reportes.** Cada reporte se descarga en **Excel** o **PDF**, o se ve en **Vista previa** para imprimir: hoja de costos, materiales, mano de obra, CIF, producción, variaciones, inventario, histórico del costo estándar y estado de costos de producción. Los PDF llevan el logo y los colores de tu empresa.
 
-![Lista de reportes disponibles, cada uno con botones para Excel, PDF y vista previa](img/guia/13-reportes.png)
+<img width="1100" height="528" alt="13-reportes" src="https://github.com/user-attachments/assets/cc606b0a-f76d-4bb6-a3d9-381e7531d36d" />
+
 
 **Histórico de costos.** Al cerrar un periodo, guarda el costo estándar de cada producto y compáralo con otros periodos, con flechas de subida y bajada. Así ves si tus costos van mejorando o empeorando.
 
@@ -249,7 +264,8 @@ Al cerrar tu **primera** orden, la guía desaparece y el Dashboard empieza a mos
 
 Casi todas las pantallas tienen **«Exportar a Excel»** e **«Importar desde Excel»**: empresas, periodos, unidades, centros de costo, productos, materias primas, mano de obra, bases y conceptos de CIF, recetas (Hoja de costo) y órdenes de producción.
 
-![Ventana de importar desde Excel: descargar la plantilla, llenarla y elegir el archivo](img/guia/14-importar-excel.png)
+<img width="1100" height="687" alt="14-importar-excel" src="https://github.com/user-attachments/assets/9ad1b934-dfd5-471c-9cd3-708d4a92ed14" />
+
 
 1. **Descarga la plantilla** desde esa misma ventana (trae los títulos correctos, un ejemplo y listas desplegables con *tus* códigos). La carpeta `plantillas` también trae una de cada módulo.
 2. Llénala con **una fila por registro**.
@@ -263,7 +279,8 @@ Un archivo exportado tiene el mismo formato que la plantilla: puedes **exportar,
 
 **Usuarios y permisos.** En **Usuarios → Nuevo usuario** el administrador crea cuentas y elige, **módulo por módulo**, qué puede crear, editar o eliminar. Todo lo demás queda en solo consulta.
 
-![Ventana para crear un usuario, con rol y casillas de permisos por módulo](img/guia/15-usuarios.png)
+<img width="1100" height="954" alt="15-usuarios" src="https://github.com/user-attachments/assets/5d5920c4-d882-46c0-9a92-781c48e30e49" />
+
 
 **Actividad.** El menú Actividad registra quién hizo qué y cuándo, incluidos los intentos de acceso fallidos.
 
@@ -277,7 +294,8 @@ Un archivo exportado tiene el mismo formato que la plantilla: puedes **exportar,
 - Margia hace **una copia automática diaria** cada vez que se abre, en `data\respaldos` (conserva las últimas 14). La primera vez que lo abres todavía no hay nada que copiar; la primera copia aparece al abrirlo por segunda vez.
 - Con el menú **Respaldo** (solo administrador) descargas una copia cuando quieras y puedes **restaurar** una. **Guarda copias fuera de este computador** (memoria USB o la nube).
 
-![Pantalla de respaldo: descargar un respaldo ahora y restaurar desde un archivo](img/guia/16-respaldo.png)
+<img width="1100" height="488" alt="16-respaldo" src="https://github.com/user-attachments/assets/78a6aefe-a115-4961-9eb9-8740a7d6f011" />
+
 
 ---
 
@@ -350,4 +368,6 @@ Todos estos archivos vienen **dentro del paquete `margia.zip`**.
 
 ---
 
-<p align="center"><b>Margia</b> · Conoce tu costo. Cuida tu margen.</p>
+<img width="3587" height="320" alt="margia-logo-lema-blanco" src="https://github.com/user-attachments/assets/f566658d-dd0b-4131-8a12-f4d879c8662e" />
+
+
